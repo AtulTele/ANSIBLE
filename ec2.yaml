@@ -21,8 +21,8 @@
        - botocore
 
   vars:
-    ansible_python_interpreter: /usr/bin/python3.10
-    keypair: Mumbai
+    ansible_python_interpreter: /usr/bin/python3.12
+    keypair: jenkins2
     instance_type: t2.micro
     image_id: ami-0f5ee92e2d63afc18
     wait: yes

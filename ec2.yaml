@@ -11,8 +11,6 @@
     - name: Print python version
       debug:
         msg: "Using Python {{ ansible_python_version }}"
-              
-    # Remove pip install tasks since we'll handle this in Jenkins pipeline
   vars:
     ansible_python_interpreter: /usr/bin/python3
     keypair: jenkins2
